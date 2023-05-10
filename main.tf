@@ -21,7 +21,7 @@ variable "tags" {
 }
 
 variable "user" {
-  default = "clarusway"
+  default = "esat"
 }
 
 resource "aws_instance" "managed_nodes" {
