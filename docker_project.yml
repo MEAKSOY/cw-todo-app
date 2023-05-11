@@ -3,7 +3,7 @@
   become: true
   vars:
     aws_region: us-east-1
-    ecr_registry: 400046393147.dkr.ecr.us-east-1.amazonaws.com
+    ecr_registry: 400046393147.dkr.ecr.us-east-1.amazonaws.com # modify accountID 
   tasks:
     - name: update all packages
       yum:
